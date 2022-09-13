@@ -1,0 +1,62 @@
+@media  screen and (max-width: 768px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    header .container {
+        padding-top: 100px;
+    }
+    .section1{
+        height: 150vmin;
+    }
+
+    .section1 .row .col-md-6 .panel {
+     position: initial;
+     width: initial;
+  
+    }
+    .section2 .cover .h1{
+      text-align: left;
+    }
+   .numbers .rect{
+    width: 13rem;
+    height: 9rem;
+   }
+   .numbers.rect h1{
+    font-size: .2rem;
+   }
+   .Section3{
+height: inherit;
+padding: 10vmin !important;
+   }
+   .section4 .carousel-item{
+    padding-left: 0.6rem;
+   }
+   .section4 .team{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   }
+   .section4 .carousel-inner{
+    width: 24rem; 
+   }
+   .gallery .web-items img{
+  width: 250px;
+  height: 250px;
+   right: 2rem;
+   justify-content: center;
+   align-items: center;
+   }
+   footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+   }
+   footer .icons{
+    padding: 1rem 0;
+   }
+   .section2 .cards .card-body{
+     width: 300px;
+     height: 500px;
+   }
+}
